@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Andada+Pro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/04da89888c.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <div><i class="fas fa-video"></i></div>
+                <div class="logo-name"> SilverScreen</div>
+            </div>
+            <div class="header-search">
+
+                <form id="form">
+                    <i class="fas fa-search search"></i>
+                    <input type="text" placeholder='search movies' id="search" class="search">
+                </form>
+            </div>
+        </nav>
+        <div class="burger">
+            <ul class="nav-links">
+                <li id="trending"><a href="#">Popular</a></li>
+                <li id="highRate"><a href="#">Highest Rated</a></li>
+                <li id="kids"><a href="#">kids</a></li>
+                <li id="genre"><a href="#">Genre</a></li>
+            </ul>
+        </div>
+        <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </header>
+
+    <main class="main">
+        <h1 class="movie-head">Movies</h1>
+        <div class="movies">
+
+        </div>
+
+        <div class="genrePage" id="genre-page">
+            <div class="page-info">
+                <!-- <div class="tag">Action</div>
+                <div class="tag">Drama</div>
+                <div class="tag">Adventure</div>
+                <div class="tag">Comedy</div> -->
+            </div>
+        </div>
+        <div id="overlay">
+            <div class="genre-heading">
+                <div class="title">Genre</div>
+                <div><button class="close-button">&times;</button></div>
+            </div>
+        </div>
+
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
